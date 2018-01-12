@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/record_overlay_btn_bg">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgBtnStartRecording"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:scaleType="center"
+        android:src="@drawable/ic_fiber_manual_record_white_24dp" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgBtnStopRecording"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@null"
+        android:scaleType="center"
+        android:src="@drawable/ic_stop_white_24dp"
+        android:visibility="gone" />
+
+</FrameLayout>
